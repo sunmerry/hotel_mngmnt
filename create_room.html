@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Create Room</title>
+	</head>
+	
+	<body>
+	<h1>Details</h1>
+	<form method="post" action="create_room.php">
+	ROOM_NAME: 			<input type="text" name="room_name"><br><br>
+	ROOM COST : 	<input type="text" name="room_cost"> <br><br>
+	
+	<label for="room_availability">Choose availability:</label>
+	<select id="room_availability" name="room_availability">
+	  <option value="yes">yes</option>
+	  <option value="no">no</option>
+	</select>
+	
+	<label for="room_type">Choose room_type:</label>
+	<select id="room_type" name="room_type">
+	  <option value="ac">ac</option>
+	  <option value="non_ac">non_ac</option>
+	</select>
+					<input type="submit" value="Submit">
+	</form>      
+	</body>
+</html>
